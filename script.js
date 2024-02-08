@@ -9,7 +9,7 @@ const wind_speed = document.getElementById('wind-speed');
 const location_not_found = document.querySelector('.location-not-found');
 const weather_body = document.querySelector('.weather-body');
 
-const API_KEY = '33e985202a06e5bd5cbbb35d9480672d'; // Replace 'YOUR_API_KEY' with your actual API key
+const API_KEY = 'API_KEY'; // Replace 'YOUR_API_KEY' with your actual API key
 
 async function fetchWeather(city) {
     try {
